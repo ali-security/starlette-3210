@@ -122,6 +122,7 @@ class FormParser:
 
 
 class MultiPartParser:
+    spool_max_size = 1024 * 1024  # 1MB
     max_file_size = 1024 * 1024  # 1MB
     max_part_size = 1024 * 1024  # 1MB
 
